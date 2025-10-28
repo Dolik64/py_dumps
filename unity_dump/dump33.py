@@ -1,0 +1,210 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from pathlib import Path
+from datetime import datetime
+import fnmatch
+
+# === Nastavení (změň podle potřeby) ==========================================
+# ROOT_DIR = Path(r"C:\Users\volny\Documents\the last human\the-last-human")
+ROOT_DIR = Path(r"C:\Users\volny\Documents\unity tutorial\Prvni_hra")
+ROOT_DIR = Path(r"C:\Users\volny\Documents\the last human\team02\The Last Human")
+OUTPUT_FILE = None  # None = dump.txt do ROOT_DIR
+
+OUTPUT_FILE = r"C:\Users\volny\Documents\the last human\dump33.txt"  # None = root/dump.txt
+
+# 1) Ignorované složky (dle JEDNOTLIVÝCH částí cesty)
+EXCLUDE_DIRS = {
+    ".git", "node_modules", "__pycache__",
+    # Unity typicky:
+    "library", "logs", "temp", "obj", "build"
+}
+
+# 2) Ignorované přesné názvy souborů (bez cest)
+EXCLUDE_FILES = {
+    "dump.txt",
+}
+
+# 3) Ignorované přípony (bez tečky)
+EXCLUDE_EXTS = {"dll", "pdb", "cache", "log"}
+
+# 4) Glob vzory (matchují relativní cestu vůči rootu)
+EXCLUDE_GLOBS = {
+    "**/Library/**",
+    "**/Logs/**",
+    "**/obj/**",
+    "**/Temp/**",
+    "**/Build/**",
+    "**/*.dll",
+    "**/*.pdb",
+    "**/*.cache",
+    "**/*.log",
+}
+
+# 5) Jaké přípony považovat za "skripty" a zda omezit velikost při výpisu
+SCRIPT_EXTS = {"cs", "js", "ts", "shader", "compute", "cginc"}  # přidej/uber dle potřeby
+MAX_SCRIPT_BYTES = 2_000_000  # bezpečnostní limit na velikost 1 souboru při čtení
+# ============================================================================
+
+def norm_lower(s: str) -> str:
+    return s.casefold()
+
+def is_excluded(rel_path: Path) -> bool:
+    # 1) části cesty (složky)
+    for part in rel_path.parts:
+        if norm_lower(part) in EXCLUDE_DIRS:
+            return True
+
+    # 2) přesný název souboru
+    name_lower = norm_lower(rel_path.name)
+    if name_lower in EXCLUDE_FILES:
+        return True
+
+    # 3) přípona
+    if rel_path.suffix:
+        ext = norm_lower(rel_path.suffix.lstrip("."))
+        if ext in EXCLUDE_EXTS:
+            return True
+
+    # 4) glob vzory (case-insensitive)
+    rel_as_posix = norm_lower(rel_path.as_posix())
+    for pattern in EXCLUDE_GLOBS:
+        if fnmatch.fnmatch(rel_as_posix, norm_lower(pattern)):
+            return True
+
+    return False
+
+def iter_all_files(root: Path):
+    for p in root.rglob("*"):
+        if p.is_file():
+            rel = p.relative_to(root)
+            if not is_excluded(rel):
+                yield rel
+
+def is_script(rel_path: Path) -> bool:
+    return rel_path.suffix and rel_path.suffix.lstrip(".").casefold() in SCRIPT_EXTS
+
+def write_tree(dir_path: Path, out, prefix: str = "", root: Path = None):
+    if root is None:
+        root = dir_path
+
+    entries = []
+    for e in dir_path.iterdir():
+        rel = e.relative_to(root)
+        if not is_excluded(rel):
+            entries.append(e)
+
+    entries.sort(key=lambda e: (e.is_file(), e.name.lower()))
+
+    total = len(entries)
+    for i, entry in enumerate(entries):
+        connector = "└── " if i == total - 1 else "├── "
+        line = f"{prefix}{connector}{entry.name}\n"
+        out.write(line)
+
+        if entry.is_dir():
+            extension = "    " if i == total - 1 else "│   "
+            write_tree(entry, out, prefix + extension, root)
+
+def write_scripts_section(root: Path, out):
+    out.write("## Skripty a jejich obsah\n")
+    scripts = [p for p in iter_all_files(root) if is_script(p)]
+
+    total_lines = 0
+    out.write(f"Celkem skriptů: {len(scripts)}\n\n")
+
+    for rel in sorted(scripts, key=lambda p: p.as_posix().lower()):
+        abs_path = root / rel
+        try:
+            size = abs_path.stat().st_size
+        except OSError:
+            size = None
+
+        header = f"### {rel.as_posix()}\n"
+        out.write(header)
+
+        if size is not None and size > MAX_SCRIPT_BYTES:
+            out.write(f"(Soubor přesáhl limit {MAX_SCRIPT_BYTES} B, obsah nevypsán.)\n\n")
+            continue
+
+        try:
+            text = abs_path.read_text(encoding="utf-8", errors="replace")
+        except Exception as e:
+            out.write(f"(Nelze přečíst soubor: {e})\n\n")
+            continue
+
+        # spočítáme řádky pro souhrn
+        lines = text.count("\n") + (0 if text.endswith("\n") else 1 if text else 0)
+        total_lines += lines
+
+        # kódová sekce
+        out.write("```" + rel.suffix.lstrip(".") + "\n")
+        out.write(text)
+        if not text.endswith("\n"):
+            out.write("\n")
+        out.write("```\n\n")
+
+    out.write(f"Souhrn řádků ve skriptech: {total_lines}\n\n")
+
+def resolve_output_path(root: Path) -> Path:
+    """
+    Vrátí finální cestu k výstupnímu souboru dle OUTPUT_FILE.
+    Podporuje:
+      - OUTPUT_FILE = None -> root/dump.txt
+      - OUTPUT_FILE = 'C:\\cesta\\soubor.txt' -> zapíše přesně tam
+      - OUTPUT_FILE = 'C:\\cesta\\slozka' -> vytvoří 'dump_{project}_{ts}.txt' uvnitř
+      - Placeholdery {project}, {date}, {ts} v názvu souboru nebo celé cestě
+    """
+    if OUTPUT_FILE is None:
+        p = root / "dump.txt"
+    else:
+        now = datetime.now()
+        ts = now.strftime("%Y-%m-%d_%H-%M-%S")
+        fmt = str(OUTPUT_FILE).format(project=root.name, date=now.date(), ts=ts)
+        p = Path(fmt)
+        if p.exists() and p.is_dir():
+            p = p / f"dump_{root.name}_{ts}.txt"
+        elif not p.suffix:
+            # Nemá příponu -> pravděpodobně složka
+            p = p / f"dump_{root.name}_{ts}.txt"
+
+    p.parent.mkdir(parents=True, exist_ok=True)
+    return p
+
+
+def main():
+    root = ROOT_DIR
+    if not root.exists() or not root.is_dir():
+        raise SystemExit(f"Chyba: '{root}' neexistuje nebo to není složka.")
+
+    # output = OUTPUT_FILE if OUTPUT_FILE else root / "dump.txt"
+    output = resolve_output_path(root)
+
+    with output.open("w", encoding="utf-8", errors="replace") as f:
+        # Hlavička
+        f.write("# DUMP souborů a hierarchie\n")
+        f.write(f"Kořenová složka: {root.resolve()}\n")
+        f.write(f"Vygenerováno: {datetime.now().isoformat(timespec='seconds')}\n")
+        f.write("\n")
+
+        # Plochý seznam souborů
+        f.write("## Seznam souborů (relativní cesty)\n")
+        count = 0
+        for rel_file in iter_all_files(root):
+            f.write(rel_file.as_posix() + "\n")
+            count += 1
+        f.write(f"\nCelkem souborů: {count}\n\n")
+
+        # Stromová hierarchie
+        f.write("## Stromová hierarchie\n")
+        f.write(f"{root.name}\n")
+        write_tree(root, f)
+        f.write("\n")
+
+        # Nová sekce: výpis skriptů + obsah
+        write_scripts_section(root, f)
+
+    print(f"Hotovo. Výstup zapsán do: {output.resolve()}")
+
+if __name__ == "__main__":
+    main()
