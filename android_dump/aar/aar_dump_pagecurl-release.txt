@@ -1,0 +1,2223 @@
+== AAR DUMP ==
+Soubor: C:\Users\volny\AndroidStudioProjects\Kniha_20\app\libs\pagecurl-release.aar
+Čas: 2025-11-05 01:58:42
+Velikost: 185.8 KB (190296 B)
+SHA256: 868edeaee8f54d8f186bb2d41033afcf7f5f6744c81ea1ae17604b211b19776e
+MD5:    a1fba60598c5e0c216d5ed7e7cce4726
+
+== Obsah AAR ==
+R.txt  0.0 B  comp=deflated
+AndroidManifest.xml  204.0 B  comp=deflated
+classes.jar  203.5 KB  comp=deflated
+META-INF/com/android/build/gradle/aar-metadata.properties  156.0 B  comp=deflated
+
+== classes.jar: seznam položek ==
+META-INF/  0.0 B  comp=stored
+eu/  0.0 B  comp=stored
+eu/wewox/  0.0 B  comp=stored
+eu/wewox/pagecurl/  0.0 B  comp=stored
+eu/wewox/pagecurl/config/  0.0 B  comp=stored
+eu/wewox/pagecurl/page/  0.0 B  comp=stored
+eu/wewox/pagecurl/utils/  0.0 B  comp=stored
+eu/wewox/pagecurl/ExperimentalPageCurlApi.class  705.0 B  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$DragInteraction.class  1.3 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config.class  3.0 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction.class  5.6 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config.class  3.5 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction.class  5.7 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$TapInteraction.class  708.0 B  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config.class  3.0 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction.class  4.5 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfig.class  12.9 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfigKt$rememberPageCurlConfig$1.class  2.3 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfigKt$rememberPageCurlConfig$2.class  9.9 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfigKt$rememberPageCurlConfig$3$1.class  6.5 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfigKt$rememberPageCurlConfig$4.class  3.5 KB  comp=deflated
+eu/wewox/pagecurl/config/PageCurlConfigKt.class  8.9 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$drawCurl$1$1.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$drawCurl$1.class  3.8 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$drawNothing$1.class  1.7 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$drawOnlyContent$1.class  1.7 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$prepareClippedContent$1.class  4.3 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$prepareCurl$1.class  6.7 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$prepareCurl$polygon$1$yieldEndSideInterception$1.class  1.8 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$prepareCurl$polygon$1.class  6.4 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$prepareShadow$1.class  1.7 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$prepareShadowApi28$1.class  4.5 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt$prepareShadowImage$2.class  3.4 KB  comp=deflated
+eu/wewox/pagecurl/page/CurlDrawKt.class  11.6 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCurlGestures$2.class  2.9 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCurlGestures$3$1$1.class  5.3 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCurlGestures$3.class  5.3 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCurlGestures$4$1$1.class  5.0 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCurlGestures$4.class  4.9 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCustomDragGestures$2$1.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCustomDragGestures$2$completed$1.class  2.8 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt$detectCustomDragGestures$2.class  7.7 KB  comp=deflated
+eu/wewox/pagecurl/page/DragCommonGestureKt.class  5.5 KB  comp=deflated
+eu/wewox/pagecurl/page/DragConfig.class  7.5 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$1$1.class  4.0 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$1.class  3.5 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$WhenMappings.class  1.1 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$backwardConfig$1.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$backwardConfig$2.class  1.8 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$backwardConfig$3.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$backwardTargetRect$2.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$forwardConfig$1.class  1.5 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$forwardConfig$2.class  1.8 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$forwardConfig$3.class  1.5 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$forwardTargetRect$2.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1.class  9.1 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt$dragGesture$1.class  4.7 KB  comp=deflated
+eu/wewox/pagecurl/page/DragGestureKt.class  2.9 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$1$1.class  4.0 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$1.class  3.5 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$WhenMappings.class  1.1 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$backwardConfig$1.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$backwardConfig$2.class  2.1 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$backwardConfig$3.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$backwardEndRect$2.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$backwardStartRect$2.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$forwardConfig$1.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$forwardConfig$2.class  2.0 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$forwardConfig$3.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$forwardEndRect$2.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1$forwardStartRect$2.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1$1.class  9.8 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt$dragStartEnd$1.class  4.8 KB  comp=deflated
+eu/wewox/pagecurl/page/DragStartEndKt.class  3.0 KB  comp=deflated
+eu/wewox/pagecurl/page/Edge$Companion$VectorConverter$1.class  1.8 KB  comp=deflated
+eu/wewox/pagecurl/page/Edge$Companion$VectorConverter$2.class  1.9 KB  comp=deflated
+eu/wewox/pagecurl/page/Edge$Companion.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/Edge.class  4.9 KB  comp=deflated
+eu/wewox/pagecurl/page/NewEdgeCreator$Default.class  1.7 KB  comp=deflated
+eu/wewox/pagecurl/page/NewEdgeCreator$PageEdge.class  1.8 KB  comp=deflated
+eu/wewox/pagecurl/page/NewEdgeCreator.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$1$1.class  2.0 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$1$2.class  2.0 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$1$dragGestureModifier$1.class  1.9 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$1$dragGestureModifier$2.class  1.9 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$1.class  20.0 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$2.class  2.6 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$4.class  2.9 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt$PageCurl$5.class  2.3 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlKt.class  14.9 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$InternalState$animateTo$2$1$1.class  3.9 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$InternalState$animateTo$2$1.class  5.7 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$InternalState$animateTo$2.class  4.8 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$InternalState$progress$2.class  2.2 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$InternalState$reset$1.class  1.8 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$InternalState.class  8.6 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$next$2.class  1.4 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$next$3.class  4.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$prev$2.class  1.4 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState$prev$3.class  4.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlState.class  9.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$DefaultNext$1$1.class  2.3 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$DefaultNext$1.class  4.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$DefaultPrev$1$1.class  2.3 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$DefaultPrev$1.class  4.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$1.class  2.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$2.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$3$1.class  1.4 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$4.class  2.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$5.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$6$1.class  1.5 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$7.class  2.1 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$8$1.class  1.6 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$9$1.class  1.5 KB  comp=deflated
+eu/wewox/pagecurl/page/PageCurlStateKt.class  11.6 KB  comp=deflated
+eu/wewox/pagecurl/page/TapGestureKt$tapGesture$1$1$1.class  3.5 KB  comp=deflated
+eu/wewox/pagecurl/page/TapGestureKt$tapGesture$1$1$2.class  3.5 KB  comp=deflated
+eu/wewox/pagecurl/page/TapGestureKt$tapGesture$1$1.class  8.1 KB  comp=deflated
+eu/wewox/pagecurl/page/TapGestureKt$tapGesture$1.class  5.3 KB  comp=deflated
+eu/wewox/pagecurl/page/TapGestureKt.class  2.4 KB  comp=deflated
+eu/wewox/pagecurl/utils/MathUtilsKt.class  1.7 KB  comp=deflated
+eu/wewox/pagecurl/utils/Polygon.class  7.3 KB  comp=deflated
+eu/wewox/pagecurl/utils/PolygonKt.class  891.0 B  comp=deflated
+eu/wewox/pagecurl/utils/RectUtilsKt.class  1.4 KB  comp=deflated
+META-INF/pagecurl_release.kotlin_module  268.0 B  comp=deflated
+
+== Přehled balíčků ==
+eu.wewox.pagecurl.page: 98 tříd
+eu.wewox.pagecurl.config: 15 tříd
+eu.wewox.pagecurl.utils: 4 tříd
+eu.wewox.pagecurl: 1 tříd
+
+== Vyhledání symbolů 'next' a 'prev' ==
+eu.wewox.pagecurl.page.PageCurlState: next, prev
+
+== Veřejné API (třídy a jejich public metody a pole) ==
+[CLASS] eu.wewox.pagecurl.ExperimentalPageCurlApi  [public interface abstract annotation]
+  extends java.lang.Object
+  implements java.lang.annotation.Annotation
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]         public final  getOnCustomTap()Lkotlin/jvm/functions/Function3;
+  [METH ]         public final  getBackPageColor-0d7_KjU()J
+  [METH ]         public final  setBackPageColor-8_81llA(J)V
+  [METH ]         public final  getBackPageContentAlpha()F
+  [METH ]         public final  setBackPageContentAlpha(F)V
+  [METH ]         public final  getShadowColor-0d7_KjU()J
+  [METH ]         public final  setShadowColor-8_81llA(J)V
+  [METH ]         public final  getShadowAlpha()F
+  [METH ]         public final  setShadowAlpha(F)V
+  [METH ]         public final  getShadowRadius-D9Ej5fM()F
+  [METH ]         public final  setShadowRadius-0680j_4(F)V
+  [METH ]         public final  getShadowOffset-RKDOV3M()J
+  [METH ]         public final  setShadowOffset-jo-Fl9I(J)V
+  [METH ]         public final  getDragForwardEnabled()Z
+  [METH ]         public final  setDragForwardEnabled(Z)V
+  [METH ]         public final  getDragBackwardEnabled()Z
+  [METH ]         public final  setDragBackwardEnabled(Z)V
+  [METH ]         public final  getTapForwardEnabled()Z
+  [METH ]         public final  setTapForwardEnabled(Z)V
+  [METH ]         public final  getTapBackwardEnabled()Z
+  [METH ]         public final  setTapBackwardEnabled(Z)V
+  [METH ]         public final  getTapCustomEnabled()Z
+  [METH ]         public final  setTapCustomEnabled(Z)V
+  [METH ]         public final  getDragInteraction()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;
+  [METH ]         public final  setDragInteraction(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;)V
+  [METH ]         public final  getTapInteraction()Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;
+  [METH ]         public final  setTapInteraction(Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;)V
+  [METH ]     public synthetic  <init>(JFJFFJZZZZZLeu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction  [public interface abstract]
+  extends java.lang.Object
+  [METH ]      public abstract  getPointerBehavior()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction$PointerBehavior  [public final super enum]
+  extends java.lang.Enum
+  [FIELD] public static final enum  Default  Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [FIELD] public static final enum  PageEdge  Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [METH ]        public static  values()[Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [METH ]        public static  valueOf(Ljava/lang/String;)Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [METH ]        public static  getEntries()Lkotlin/enums/EnumEntries;
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$GestureDragInteraction  [public final super]
+  extends java.lang.Object
+  implements eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;)V
+  [METH ]     public synthetic  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+  [METH ]               public  getPointerBehavior()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [METH ]         public final  getForward()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+  [METH ]         public final  getBackward()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+  [METH ]         public final  component1()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [METH ]         public final  component2()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+  [METH ]         public final  component3()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+  [METH ]         public final  copy(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+  [METH ]               public  <init>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$GestureDragInteraction$Config  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Landroidx/compose/ui/geometry/Rect;)V
+  [METH ]         public final  getTarget()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  component1()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  copy(Landroidx/compose/ui/geometry/Rect;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Landroidx/compose/ui/geometry/Rect;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$StartEndDragInteraction  [public final super]
+  extends java.lang.Object
+  implements eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;)V
+  [METH ]     public synthetic  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+  [METH ]               public  getPointerBehavior()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [METH ]         public final  getForward()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+  [METH ]         public final  getBackward()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+  [METH ]         public final  component1()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+  [METH ]         public final  component2()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+  [METH ]         public final  component3()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+  [METH ]         public final  copy(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+  [METH ]               public  <init>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$StartEndDragInteraction$Config  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Landroidx/compose/ui/geometry/Rect;Landroidx/compose/ui/geometry/Rect;)V
+  [METH ]         public final  getStart()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  getEnd()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  component1()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  component2()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  copy(Landroidx/compose/ui/geometry/Rect;Landroidx/compose/ui/geometry/Rect;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Landroidx/compose/ui/geometry/Rect;Landroidx/compose/ui/geometry/Rect;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$TapInteraction  [public interface abstract]
+  extends java.lang.Object
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$TargetTapInteraction  [public final super]
+  extends java.lang.Object
+  implements eu.wewox.pagecurl.config.PageCurlConfig$TapInteraction
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;)V
+  [METH ]     public synthetic  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+  [METH ]         public final  getForward()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+  [METH ]         public final  getBackward()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+  [METH ]         public final  component1()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+  [METH ]         public final  component2()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+  [METH ]         public final  copy(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+  [METH ]               public  <init>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$TargetTapInteraction$Config  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Landroidx/compose/ui/geometry/Rect;)V
+  [METH ]         public final  getTarget()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  component1()Landroidx/compose/ui/geometry/Rect;
+  [METH ]         public final  copy(Landroidx/compose/ui/geometry/Rect;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Landroidx/compose/ui/geometry/Rect;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfigKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  rememberPageCurlConfig-WoF_cSQ(JFJFFJZZZZZLeu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)Leu/wewox/pagecurl/config/PageCurlConfig;
+  [METH ] public static final synthetic  access$rightHalf()Landroidx/compose/ui/geometry/Rect;
+  [METH ] public static final synthetic  access$leftHalf()Landroidx/compose/ui/geometry/Rect;
+  [METH ] public static final synthetic  access$full()Landroidx/compose/ui/geometry/Rect;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  drawCurl-nbeKj4c(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig;JJ)Landroidx/compose/ui/Modifier;
+  [METH ] public static final synthetic  access$drawNothing(Landroidx/compose/ui/draw/CacheDrawScope;)Landroidx/compose/ui/draw/DrawResult;
+  [METH ] public static final synthetic  access$drawOnlyContent(Landroidx/compose/ui/draw/CacheDrawScope;)Landroidx/compose/ui/draw/DrawResult;
+  [METH ] public static final synthetic  access$prepareClippedContent-2x9bVx0(Landroidx/compose/ui/draw/CacheDrawScope;JJ)Lkotlin/jvm/functions/Function1;
+  [METH ] public static final synthetic  access$prepareCurl-nbeKj4c(Landroidx/compose/ui/draw/CacheDrawScope;Leu/wewox/pagecurl/config/PageCurlConfig;JJ)Lkotlin/jvm/functions/Function1;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  detectCurlGestures(Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlinx/coroutines/CoroutineScope;Leu/wewox/pagecurl/page/NewEdgeCreator;Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+  [METH ]  public static final  detectCustomDragGestures(Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragConfig  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Landroidx/compose/animation/core/Animatable;Leu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;)V
+  [METH ]         public final  getEdge()Landroidx/compose/animation/core/Animatable;
+  [METH ]         public final  getStart()Leu/wewox/pagecurl/page/Edge;
+  [METH ]         public final  getEnd()Leu/wewox/pagecurl/page/Edge;
+  [METH ]         public final  isEnabled()Lkotlin/jvm/functions/Function0;
+  [METH ]         public final  isDragSucceed()Lkotlin/jvm/functions/Function2;
+  [METH ]         public final  getOnChange()Lkotlin/jvm/functions/Function0;
+  [METH ]         public final  component1()Landroidx/compose/animation/core/Animatable;
+  [METH ]         public final  component2()Leu/wewox/pagecurl/page/Edge;
+  [METH ]         public final  component3()Leu/wewox/pagecurl/page/Edge;
+  [METH ]         public final  component4()Lkotlin/jvm/functions/Function0;
+  [METH ]         public final  component5()Lkotlin/jvm/functions/Function2;
+  [METH ]         public final  component6()Lkotlin/jvm/functions/Function0;
+  [METH ]         public final  copy(Landroidx/compose/animation/core/Animatable;Leu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;)Leu/wewox/pagecurl/page/DragConfig;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/page/DragConfig;Landroidx/compose/animation/core/Animatable;Leu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Leu/wewox/pagecurl/page/DragConfig;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  dragGesture(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Leu/wewox/pagecurl/page/PageCurlState$InternalState;ZZLkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;)Landroidx/compose/ui/Modifier;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$WhenMappings  [public final super synthetic]
+  extends java.lang.Object
+  [FIELD] public static final synthetic  $EnumSwitchMapping$0  [I
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  dragStartEnd(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Leu/wewox/pagecurl/page/PageCurlState$InternalState;ZZLkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;)Landroidx/compose/ui/Modifier;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$WhenMappings  [public final super synthetic]
+  extends java.lang.Object
+  [FIELD] public static final synthetic  $EnumSwitchMapping$0  [I
+
+[CLASS] eu.wewox.pagecurl.page.Edge  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  Companion  Leu/wewox/pagecurl/page/Edge$Companion;
+  [FIELD]  public static final  $stable  I
+  [METH ]         public final  getTop-F1C5BW0()J
+  [METH ]         public final  getBottom-F1C5BW0()J
+  [METH ]         public final  getCenterX$pagecurl_release()F
+  [METH ]         public final  component1-F1C5BW0()J
+  [METH ]         public final  component2-F1C5BW0()J
+  [METH ]         public final  copy-0a9Yr6o(JJ)Leu/wewox/pagecurl/page/Edge;
+  [METH ] public static synthetic  copy-0a9Yr6o$default(Leu/wewox/pagecurl/page/Edge;JJILjava/lang/Object;)Leu/wewox/pagecurl/page/Edge;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+  [METH ]     public synthetic  <init>(JJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+  [METH ] public static final synthetic  access$getVectorConverter$cp()Landroidx/compose/animation/core/TwoWayConverter;
+  [METH ] public static final synthetic  access$getVisibilityThreshold$cp()Leu/wewox/pagecurl/page/Edge;
+
+[CLASS] eu.wewox.pagecurl.page.Edge$Companion  [public final super]
+  extends java.lang.Object
+  [METH ]         public final  getVectorConverter()Landroidx/compose/animation/core/TwoWayConverter;
+  [METH ]         public final  getVisibilityThreshold()Leu/wewox/pagecurl/page/Edge;
+  [METH ]     public synthetic  <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+[CLASS] eu.wewox.pagecurl.page.NewEdgeCreator  [public super abstract]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>()V
+  [METH ]      public abstract  createNew--aQHJeE(JJJ)Leu/wewox/pagecurl/page/Edge;
+
+[CLASS] eu.wewox.pagecurl.page.NewEdgeCreator$Default  [public final super]
+  extends eu.wewox.pagecurl.page.NewEdgeCreator
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>()V
+  [METH ]               public  createNew--aQHJeE(JJJ)Leu/wewox/pagecurl/page/Edge;
+
+[CLASS] eu.wewox.pagecurl.page.NewEdgeCreator$PageEdge  [public final super]
+  extends eu.wewox.pagecurl.page.NewEdgeCreator
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>()V
+  [METH ]               public  createNew--aQHJeE(JJJ)Leu/wewox/pagecurl/page/Edge;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  PageCurl(ILandroidx/compose/ui/Modifier;Leu/wewox/pagecurl/page/PageCurlState;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+  [METH ]  public static final  PageCurl(ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/page/PageCurlState;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+  [METH ]  public static final  PageCurl(Leu/wewox/pagecurl/page/PageCurlState;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(II)V
+  [METH ]     public synthetic  <init>(IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+  [METH ]         public final  getCurrent()I
+  [METH ]         public final  setCurrent$pagecurl_release(I)V
+  [METH ]         public final  getProgress()F
+  [METH ]         public final  getMax$pagecurl_release()I
+  [METH ]         public final  getInternalState$pagecurl_release()Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+  [METH ]         public final  setup-0kLqBqw$pagecurl_release(IJ)V
+  [METH ]         public final  snapTo(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+  [METH ]         public final  next(Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+  [METH ] public static synthetic  next$default(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+  [METH ]         public final  prev(Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+  [METH ] public static synthetic  prev$default(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+  [METH ]               public  <init>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$InternalState  [public final super]
+  extends java.lang.Object
+  [METH ]         public final  getConstraints-msEJaDk()J
+  [METH ]         public final  getLeftEdge()Leu/wewox/pagecurl/page/Edge;
+  [METH ]         public final  getRightEdge()Leu/wewox/pagecurl/page/Edge;
+  [METH ]         public final  getForward()Landroidx/compose/animation/core/Animatable;
+  [METH ]         public final  getBackward()Landroidx/compose/animation/core/Animatable;
+  [METH ]         public final  getAnimateJob()Lkotlinx/coroutines/Job;
+  [METH ]         public final  setAnimateJob(Lkotlinx/coroutines/Job;)V
+  [METH ]         public final  getProgress()F
+  [METH ]         public final  reset(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+  [METH ]         public final  animateTo(Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+  [METH ]     public synthetic  <init>(Leu/wewox/pagecurl/page/PageCurlState;JLeu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Landroidx/compose/animation/core/Animatable;Landroidx/compose/animation/core/Animatable;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  rememberPageCurlState(ILandroidx/compose/runtime/Composer;II)Leu/wewox/pagecurl/page/PageCurlState;
+  [METH ]  public static final  rememberPageCurlState(ILeu/wewox/pagecurl/config/PageCurlConfig;Landroidx/compose/runtime/Composer;II)Leu/wewox/pagecurl/page/PageCurlState;
+  [METH ]  public static final  rememberPageCurlState(IILeu/wewox/pagecurl/config/PageCurlConfig;Landroidx/compose/runtime/Composer;II)Leu/wewox/pagecurl/page/PageCurlState;
+  [METH ] public static final synthetic  access$getDefaultNext()Lkotlin/jvm/functions/Function3;
+  [METH ] public static final synthetic  access$getDefaultNext$p()Lkotlin/jvm/functions/Function3;
+  [METH ] public static final synthetic  access$getDefaultPrev()Lkotlin/jvm/functions/Function3;
+  [METH ] public static final synthetic  access$getDefaultPrev$p()Lkotlin/jvm/functions/Function3;
+  [METH ] public static final synthetic  access$getStart-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+  [METH ] public static final synthetic  access$getEnd-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+  [METH ] public static final synthetic  access$getMiddle-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+
+[CLASS] eu.wewox.pagecurl.page.TapGestureKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  tapGesture(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Landroidx/compose/ui/Modifier;
+
+[CLASS] eu.wewox.pagecurl.utils.MathUtilsKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  rotate-3MmeM6k(JF)J
+  [METH ]  public static final  lineLineIntersection-zwwh4xc(JJJJ)Landroidx/compose/ui/geometry/Offset;
+
+[CLASS] eu.wewox.pagecurl.utils.Polygon  [public final super]
+  extends java.lang.Object
+  [FIELD]  public static final  $stable  I
+  [METH ]               public  <init>(Ljava/util/List;)V
+  [METH ]         public final  getVertices()Ljava/util/List;
+  [METH ]         public final  translate-k-4lQ0M(J)Leu/wewox/pagecurl/utils/Polygon;
+  [METH ]         public final  offset(F)Leu/wewox/pagecurl/utils/Polygon;
+  [METH ]         public final  toPath()Landroidx/compose/ui/graphics/Path;
+  [METH ]         public final  component1()Ljava/util/List;
+  [METH ]         public final  copy(Ljava/util/List;)Leu/wewox/pagecurl/utils/Polygon;
+  [METH ] public static synthetic  copy$default(Leu/wewox/pagecurl/utils/Polygon;Ljava/util/List;ILjava/lang/Object;)Leu/wewox/pagecurl/utils/Polygon;
+  [METH ]               public  toString()Ljava/lang/String;
+  [METH ]               public  hashCode()I
+  [METH ]               public  equals(Ljava/lang/Object;)Z
+
+[CLASS] eu.wewox.pagecurl.utils.PolygonKt  [public final super]
+  extends java.lang.Object
+  [METH ] public static final synthetic  access$normalized-k-4lQ0M(J)J
+
+[CLASS] eu.wewox.pagecurl.utils.RectUtilsKt  [public final super]
+  extends java.lang.Object
+  [METH ]  public static final  multiply-O0kMr_c(Landroidx/compose/ui/geometry/Rect;J)Landroidx/compose/ui/geometry/Rect;
+
+== Kompletní detail všech tříd ==
+[CLASS] eu.wewox.pagecurl.ExperimentalPageCurlApi
+  FLAGS:   public interface abstract annotation (0x2601)
+  SUPER:   java.lang.Object
+  IFACES:  java.lang.annotation.Annotation
+  FIELDS:
+    <none>
+  METHODS:
+    <none>
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  onCustomTap  Lkotlin/jvm/functions/Function3;
+           private final  backPageColor$delegate  Landroidx/compose/runtime/MutableState;
+           private final  backPageContentAlpha$delegate  Landroidx/compose/runtime/MutableState;
+           private final  shadowColor$delegate  Landroidx/compose/runtime/MutableState;
+           private final  shadowAlpha$delegate  Landroidx/compose/runtime/MutableState;
+           private final  shadowRadius$delegate  Landroidx/compose/runtime/MutableState;
+           private final  shadowOffset$delegate  Landroidx/compose/runtime/MutableState;
+           private final  dragForwardEnabled$delegate  Landroidx/compose/runtime/MutableState;
+           private final  dragBackwardEnabled$delegate  Landroidx/compose/runtime/MutableState;
+           private final  tapForwardEnabled$delegate  Landroidx/compose/runtime/MutableState;
+           private final  tapBackwardEnabled$delegate  Landroidx/compose/runtime/MutableState;
+           private final  tapCustomEnabled$delegate  Landroidx/compose/runtime/MutableState;
+           private final  dragInteraction$delegate  Landroidx/compose/runtime/MutableState;
+           private final  tapInteraction$delegate  Landroidx/compose/runtime/MutableState;
+     public static final  $stable  I
+  METHODS:
+                 private  <init>(JFJFFJZZZZZLeu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;Lkotlin/jvm/functions/Function3;)V
+            public final  getOnCustomTap()Lkotlin/jvm/functions/Function3;
+            public final  getBackPageColor-0d7_KjU()J
+            public final  setBackPageColor-8_81llA(J)V
+            public final  getBackPageContentAlpha()F
+            public final  setBackPageContentAlpha(F)V
+            public final  getShadowColor-0d7_KjU()J
+            public final  setShadowColor-8_81llA(J)V
+            public final  getShadowAlpha()F
+            public final  setShadowAlpha(F)V
+            public final  getShadowRadius-D9Ej5fM()F
+            public final  setShadowRadius-0680j_4(F)V
+            public final  getShadowOffset-RKDOV3M()J
+            public final  setShadowOffset-jo-Fl9I(J)V
+            public final  getDragForwardEnabled()Z
+            public final  setDragForwardEnabled(Z)V
+            public final  getDragBackwardEnabled()Z
+            public final  setDragBackwardEnabled(Z)V
+            public final  getTapForwardEnabled()Z
+            public final  setTapForwardEnabled(Z)V
+            public final  getTapBackwardEnabled()Z
+            public final  setTapBackwardEnabled(Z)V
+            public final  getTapCustomEnabled()Z
+            public final  setTapCustomEnabled(Z)V
+            public final  getDragInteraction()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;
+            public final  setDragInteraction(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;)V
+            public final  getTapInteraction()Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;
+            public final  setTapInteraction(Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;)V
+        public synthetic  <init>(JFJFFJZZZZZLeu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction
+  FLAGS:   public interface abstract (0x601)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+         public abstract  getPointerBehavior()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction$PointerBehavior
+  FLAGS:   public final super enum (0x4031)
+  SUPER:   java.lang.Enum
+  IFACES:  <none>
+  FIELDS:
+    public static final enum  Default  Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+    public static final enum  PageEdge  Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+    private static final synthetic  $VALUES  [Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+    private static final synthetic  $ENTRIES  Lkotlin/enums/EnumEntries;
+  METHODS:
+                 private  <init>(Ljava/lang/String;I)V
+           public static  values()[Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+           public static  valueOf(Ljava/lang/String;)Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+           public static  getEntries()Lkotlin/enums/EnumEntries;
+    private static final synthetic  $values()[Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$GestureDragInteraction
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction
+  FIELDS:
+           private final  pointerBehavior  Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+           private final  forward  Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+           private final  backward  Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;)V
+        public synthetic  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+                  public  getPointerBehavior()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+            public final  getForward()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+            public final  getBackward()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+            public final  component1()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+            public final  component2()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+            public final  component3()Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+            public final  copy(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  public  <init>()V
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$GestureDragInteraction$Config
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  target  Landroidx/compose/ui/geometry/Rect;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Landroidx/compose/ui/geometry/Rect;)V
+            public final  getTarget()Landroidx/compose/ui/geometry/Rect;
+            public final  component1()Landroidx/compose/ui/geometry/Rect;
+            public final  copy(Landroidx/compose/ui/geometry/Rect;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;Landroidx/compose/ui/geometry/Rect;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction$Config;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$StartEndDragInteraction
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  eu.wewox.pagecurl.config.PageCurlConfig$DragInteraction
+  FIELDS:
+           private final  pointerBehavior  Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+           private final  forward  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+           private final  backward  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;)V
+        public synthetic  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+                  public  getPointerBehavior()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+            public final  getForward()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+            public final  getBackward()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+            public final  component1()Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;
+            public final  component2()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+            public final  component3()Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+            public final  copy(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction$PointerBehavior;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  public  <init>()V
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$StartEndDragInteraction$Config
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  start  Landroidx/compose/ui/geometry/Rect;
+           private final  end  Landroidx/compose/ui/geometry/Rect;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Landroidx/compose/ui/geometry/Rect;Landroidx/compose/ui/geometry/Rect;)V
+            public final  getStart()Landroidx/compose/ui/geometry/Rect;
+            public final  getEnd()Landroidx/compose/ui/geometry/Rect;
+            public final  component1()Landroidx/compose/ui/geometry/Rect;
+            public final  component2()Landroidx/compose/ui/geometry/Rect;
+            public final  copy(Landroidx/compose/ui/geometry/Rect;Landroidx/compose/ui/geometry/Rect;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;Landroidx/compose/ui/geometry/Rect;Landroidx/compose/ui/geometry/Rect;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction$Config;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$TapInteraction
+  FLAGS:   public interface abstract (0x601)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+    <none>
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$TargetTapInteraction
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  eu.wewox.pagecurl.config.PageCurlConfig$TapInteraction
+  FIELDS:
+           private final  forward  Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+           private final  backward  Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;)V
+        public synthetic  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+            public final  getForward()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+            public final  getBackward()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+            public final  component1()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+            public final  component2()Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+            public final  copy(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  public  <init>()V
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfig$TargetTapInteraction$Config
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  target  Landroidx/compose/ui/geometry/Rect;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Landroidx/compose/ui/geometry/Rect;)V
+            public final  getTarget()Landroidx/compose/ui/geometry/Rect;
+            public final  component1()Landroidx/compose/ui/geometry/Rect;
+            public final  copy(Landroidx/compose/ui/geometry/Rect;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;Landroidx/compose/ui/geometry/Rect;ILjava/lang/Object;)Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction$Config;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfigKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  rememberPageCurlConfig-WoF_cSQ(JFJFFJZZZZZLeu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;III)Leu/wewox/pagecurl/config/PageCurlConfig;
+    private static final  full()Landroidx/compose/ui/geometry/Rect;
+    private static final  leftHalf()Landroidx/compose/ui/geometry/Rect;
+    private static final  rightHalf()Landroidx/compose/ui/geometry/Rect;
+    public static final synthetic  access$rightHalf()Landroidx/compose/ui/geometry/Rect;
+    public static final synthetic  access$leftHalf()Landroidx/compose/ui/geometry/Rect;
+    public static final synthetic  access$full()Landroidx/compose/ui/geometry/Rect;
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfigKt$rememberPageCurlConfig$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/config/PageCurlConfigKt$rememberPageCurlConfig$1;
+  METHODS:
+                 package  <init>()V
+            public final  invoke-7rMqu3I(Landroidx/compose/ui/unit/Density;JJ)Ljava/lang/Boolean;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfigKt$rememberPageCurlConfig$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/config/PageCurlConfigKt$rememberPageCurlConfig$2;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/runtime/saveable/SaverScope;Leu/wewox/pagecurl/config/PageCurlConfig;)Ljava/util/List;
+    private static final  invoke$forSave(Landroidx/compose/ui/geometry/Rect;)Ljava/util/List;
+    private static final  invoke$getRectList(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;)Ljava/util/List;
+    private static final  invoke$getRectList$0(Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;)Ljava/util/List;
+    private static final  invoke$forSave$1(Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;)Ljava/util/List;
+    private static final  invoke$forSave$3(Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;)Ljava/util/List;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfigKt$rememberPageCurlConfig$3$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $onCustomTap  Lkotlin/jvm/functions/Function3;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function3;)V
+            public final  invoke(Ljava/util/List;)Leu/wewox/pagecurl/config/PageCurlConfig;
+    private static final  invoke$nextRect(Ljava/util/Iterator;)Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.config.PageCurlConfigKt$rememberPageCurlConfig$4
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $backPageColor  J
+         final synthetic  $backPageContentAlpha  F
+         final synthetic  $shadowColor  J
+         final synthetic  $shadowAlpha  F
+         final synthetic  $shadowRadius  F
+         final synthetic  $shadowOffset  J
+         final synthetic  $dragForwardEnabled  Z
+         final synthetic  $dragBackwardEnabled  Z
+         final synthetic  $tapForwardEnabled  Z
+         final synthetic  $tapBackwardEnabled  Z
+         final synthetic  $tapCustomEnabled  Z
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;
+         final synthetic  $tapInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;
+         final synthetic  $onCustomTap  Lkotlin/jvm/functions/Function3;
+  METHODS:
+                 package  <init>(JFJFFJZZZZZLeu/wewox/pagecurl/config/PageCurlConfig$DragInteraction;Leu/wewox/pagecurl/config/PageCurlConfig$TapInteraction;Lkotlin/jvm/functions/Function3;)V
+            public final  invoke()Leu/wewox/pagecurl/config/PageCurlConfig;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  drawCurl-nbeKj4c(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig;JJ)Landroidx/compose/ui/Modifier;
+    private static final  drawOnlyContent(Landroidx/compose/ui/draw/CacheDrawScope;)Landroidx/compose/ui/draw/DrawResult;
+    private static final  drawNothing(Landroidx/compose/ui/draw/CacheDrawScope;)Landroidx/compose/ui/draw/DrawResult;
+    private static final  prepareClippedContent-2x9bVx0(Landroidx/compose/ui/draw/CacheDrawScope;JJ)Lkotlin/jvm/functions/Function1;
+    private static final  prepareCurl-nbeKj4c(Landroidx/compose/ui/draw/CacheDrawScope;Leu/wewox/pagecurl/config/PageCurlConfig;JJ)Lkotlin/jvm/functions/Function1;
+    private static final  prepareShadow(Landroidx/compose/ui/draw/CacheDrawScope;Leu/wewox/pagecurl/config/PageCurlConfig;Leu/wewox/pagecurl/utils/Polygon;F)Lkotlin/jvm/functions/Function1;
+    private static final  prepareShadowApi28(FLandroidx/compose/ui/graphics/Paint;Leu/wewox/pagecurl/utils/Polygon;)Lkotlin/jvm/functions/Function1;
+    private static final  prepareShadowImage(Landroidx/compose/ui/draw/CacheDrawScope;FLandroidx/compose/ui/graphics/Paint;Leu/wewox/pagecurl/utils/Polygon;)Lkotlin/jvm/functions/Function1;
+    public static final synthetic  access$drawNothing(Landroidx/compose/ui/draw/CacheDrawScope;)Landroidx/compose/ui/draw/DrawResult;
+    public static final synthetic  access$drawOnlyContent(Landroidx/compose/ui/draw/CacheDrawScope;)Landroidx/compose/ui/draw/DrawResult;
+    public static final synthetic  access$prepareClippedContent-2x9bVx0(Landroidx/compose/ui/draw/CacheDrawScope;JJ)Lkotlin/jvm/functions/Function1;
+    public static final synthetic  access$prepareCurl-nbeKj4c(Landroidx/compose/ui/draw/CacheDrawScope;Leu/wewox/pagecurl/config/PageCurlConfig;JJ)Lkotlin/jvm/functions/Function1;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$drawCurl$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $posA  J
+         final synthetic  $posB  J
+         final synthetic  $config  Leu/wewox/pagecurl/config/PageCurlConfig;
+  METHODS:
+                 package  <init>(JJLeu/wewox/pagecurl/config/PageCurlConfig;)V
+            public final  invoke(Landroidx/compose/ui/draw/CacheDrawScope;)Landroidx/compose/ui/draw/DrawResult;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$drawCurl$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $drawClippedContent  Lkotlin/jvm/functions/Function1;
+         final synthetic  $drawCurl  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$drawNothing$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/CurlDrawKt$drawNothing$1;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$drawOnlyContent$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/CurlDrawKt$drawOnlyContent$1;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$prepareClippedContent$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $path  Landroidx/compose/ui/graphics/Path;
+  METHODS:
+                 package  <init>(Landroidx/compose/ui/graphics/Path;)V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$prepareCurl$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $bottomCurlOffset  J
+         final synthetic  $angle  F
+         final synthetic  $drawShadow  Lkotlin/jvm/functions/Function1;
+         final synthetic  $polygon  Leu/wewox/pagecurl/utils/Polygon;
+         final synthetic  $config  Leu/wewox/pagecurl/config/PageCurlConfig;
+  METHODS:
+                 package  <init>(JFLkotlin/jvm/functions/Function1;Leu/wewox/pagecurl/utils/Polygon;Leu/wewox/pagecurl/config/PageCurlConfig;)V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$prepareCurl$polygon$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.RestrictedSuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+         final synthetic  $topCurlOffset  J
+         final synthetic  $this_prepareCurl  Landroidx/compose/ui/draw/CacheDrawScope;
+         final synthetic  $bottomCurlOffset  J
+  METHODS:
+                 package  <init>(JLandroidx/compose/ui/draw/CacheDrawScope;JLkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlin/sequences/SequenceScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    private static final  invokeSuspend$yieldEndSideInterception(Lkotlin/sequences/SequenceScope;JJLandroidx/compose/ui/draw/CacheDrawScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    public static final synthetic  access$invokeSuspend$yieldEndSideInterception(Lkotlin/sequences/SequenceScope;JJLandroidx/compose/ui/draw/CacheDrawScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$prepareCurl$polygon$1$yieldEndSideInterception$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.ContinuationImpl
+  IFACES:  <none>
+  FIELDS:
+                 package  L$0  Ljava/lang/Object;
+                 package  J$0  J
+               synthetic  result  Ljava/lang/Object;
+                 package  label  I
+  METHODS:
+                 package  <init>(Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$prepareShadow$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/CurlDrawKt$prepareShadow$1;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$prepareShadowApi28$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $polygon  Leu/wewox/pagecurl/utils/Polygon;
+         final synthetic  $radius  F
+         final synthetic  $paint  Landroidx/compose/ui/graphics/Paint;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/utils/Polygon;FLandroidx/compose/ui/graphics/Paint;)V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.CurlDrawKt$prepareShadowImage$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $bitmap  Landroid/graphics/Bitmap;
+         final synthetic  $radius  F
+  METHODS:
+                 package  <init>(Landroid/graphics/Bitmap;F)V
+            public final  invoke(Landroidx/compose/ui/graphics/drawscope/ContentDrawScope;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  detectCurlGestures(Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlinx/coroutines/CoroutineScope;Leu/wewox/pagecurl/page/NewEdgeCreator;Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+     public static final  detectCustomDragGestures(Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCurlGestures$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $startOffset  Lkotlin/jvm/internal/Ref$LongRef;
+         final synthetic  $config  Lkotlin/jvm/internal/Ref$ObjectRef;
+         final synthetic  $getConfig  Lkotlin/jvm/functions/Function2;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/internal/Ref$LongRef;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/functions/Function2;)V
+            public final  invoke-0a9Yr6o(JJ)Ljava/lang/Boolean;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCurlGestures$3
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $config  Lkotlin/jvm/internal/Ref$ObjectRef;
+         final synthetic  $velocityTracker  Landroidx/compose/ui/input/pointer/util/VelocityTracker;
+         final synthetic  $this_detectCurlGestures  Landroidx/compose/ui/input/pointer/PointerInputScope;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $startOffset  Lkotlin/jvm/internal/Ref$LongRef;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/compose/ui/input/pointer/util/VelocityTracker;Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/internal/Ref$LongRef;)V
+            public final  invoke-3MmeM6k(JZ)V
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCurlGestures$3$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  L$0  Ljava/lang/Object;
+                 package  label  I
+         final synthetic  $complete  Z
+         final synthetic  $this_apply  Leu/wewox/pagecurl/page/DragConfig;
+         final synthetic  $startOffset  Lkotlin/jvm/internal/Ref$LongRef;
+         final synthetic  $flingEndOffset  J
+  METHODS:
+                 package  <init>(ZLeu/wewox/pagecurl/page/DragConfig;Lkotlin/jvm/internal/Ref$LongRef;JLkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCurlGestures$4
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $config  Lkotlin/jvm/internal/Ref$ObjectRef;
+         final synthetic  $velocityTracker  Landroidx/compose/ui/input/pointer/util/VelocityTracker;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $newEdgeCreator  Leu/wewox/pagecurl/page/NewEdgeCreator;
+         final synthetic  $this_detectCurlGestures  Landroidx/compose/ui/input/pointer/PointerInputScope;
+         final synthetic  $startOffset  Lkotlin/jvm/internal/Ref$LongRef;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/compose/ui/input/pointer/util/VelocityTracker;Lkotlinx/coroutines/CoroutineScope;Leu/wewox/pagecurl/page/NewEdgeCreator;Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlin/jvm/internal/Ref$LongRef;)V
+            public final  invoke-Uv8p0NA(Landroidx/compose/ui/input/pointer/PointerInputChange;J)V
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCurlGestures$4$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+         final synthetic  $newEdgeCreator  Leu/wewox/pagecurl/page/NewEdgeCreator;
+         final synthetic  $this_detectCurlGestures  Landroidx/compose/ui/input/pointer/PointerInputScope;
+         final synthetic  $startOffset  Lkotlin/jvm/internal/Ref$LongRef;
+         final synthetic  $change  Landroidx/compose/ui/input/pointer/PointerInputChange;
+         final synthetic  $this_apply  Leu/wewox/pagecurl/page/DragConfig;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/NewEdgeCreator;Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlin/jvm/internal/Ref$LongRef;Landroidx/compose/ui/input/pointer/PointerInputChange;Leu/wewox/pagecurl/page/DragConfig;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCustomDragGestures$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.RestrictedSuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  L$1  Ljava/lang/Object;
+                 package  L$2  Ljava/lang/Object;
+                 package  L$3  Ljava/lang/Object;
+                 package  L$4  Ljava/lang/Object;
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+         final synthetic  $onDragStart  Lkotlin/jvm/functions/Function2;
+         final synthetic  $onDrag  Lkotlin/jvm/functions/Function2;
+         final synthetic  $onDragEnd  Lkotlin/jvm/functions/Function2;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Landroidx/compose/ui/input/pointer/AwaitPointerEventScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCustomDragGestures$2$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $overSlop  Lkotlin/jvm/internal/Ref$LongRef;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/internal/Ref$LongRef;)V
+            public final  invoke-Uv8p0NA(Landroidx/compose/ui/input/pointer/PointerInputChange;J)V
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragCommonGestureKt$detectCustomDragGestures$2$completed$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $drag  Lkotlin/jvm/internal/Ref$ObjectRef;
+         final synthetic  $onDrag  Lkotlin/jvm/functions/Function2;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/functions/Function2;)V
+            public final  invoke(Landroidx/compose/ui/input/pointer/PointerInputChange;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragConfig
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  edge  Landroidx/compose/animation/core/Animatable;
+           private final  start  Leu/wewox/pagecurl/page/Edge;
+           private final  end  Leu/wewox/pagecurl/page/Edge;
+           private final  isEnabled  Lkotlin/jvm/functions/Function0;
+           private final  isDragSucceed  Lkotlin/jvm/functions/Function2;
+           private final  onChange  Lkotlin/jvm/functions/Function0;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Landroidx/compose/animation/core/Animatable;Leu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;)V
+            public final  getEdge()Landroidx/compose/animation/core/Animatable;
+            public final  getStart()Leu/wewox/pagecurl/page/Edge;
+            public final  getEnd()Leu/wewox/pagecurl/page/Edge;
+            public final  isEnabled()Lkotlin/jvm/functions/Function0;
+            public final  isDragSucceed()Lkotlin/jvm/functions/Function2;
+            public final  getOnChange()Lkotlin/jvm/functions/Function0;
+            public final  component1()Landroidx/compose/animation/core/Animatable;
+            public final  component2()Leu/wewox/pagecurl/page/Edge;
+            public final  component3()Leu/wewox/pagecurl/page/Edge;
+            public final  component4()Lkotlin/jvm/functions/Function0;
+            public final  component5()Lkotlin/jvm/functions/Function2;
+            public final  component6()Lkotlin/jvm/functions/Function0;
+            public final  copy(Landroidx/compose/animation/core/Animatable;Leu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;)Leu/wewox/pagecurl/page/DragConfig;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/page/DragConfig;Landroidx/compose/animation/core/Animatable;Leu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Leu/wewox/pagecurl/page/DragConfig;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  dragGesture(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Leu/wewox/pagecurl/page/PageCurlState$InternalState;ZZLkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;)Landroidx/compose/ui/Modifier;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+         final synthetic  $enabledForward  Z
+         final synthetic  $enabledBackward  Z
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(ZZLeu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlinx/coroutines/CoroutineScope;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Lkotlin/jvm/functions/Function1;)V
+            public final  invoke(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/Modifier;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+         final synthetic  $isEnabledForward  Landroidx/compose/runtime/State;
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+         final synthetic  $isEnabledBackward  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlinx/coroutines/CoroutineScope;Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Landroidx/compose/runtime/State;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/State;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    private static final  invokeSuspend$lambda$0(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    private static final  invokeSuspend$lambda$1(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    public static final synthetic  access$invokeSuspend$lambda$0(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    public static final synthetic  access$invokeSuspend$lambda$1(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $forwardConfig  Leu/wewox/pagecurl/page/DragConfig;
+         final synthetic  $backwardConfig  Leu/wewox/pagecurl/page/DragConfig;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $forwardTargetRect$delegate  Lkotlin/Lazy;
+         final synthetic  $backwardTargetRect$delegate  Lkotlin/Lazy;
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/DragConfig;Leu/wewox/pagecurl/page/DragConfig;Lkotlinx/coroutines/CoroutineScope;Lkotlin/Lazy;Lkotlin/Lazy;Leu/wewox/pagecurl/page/PageCurlState$InternalState;)V
+            public final  invoke-0a9Yr6o(JJ)Leu/wewox/pagecurl/page/DragConfig;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$WhenMappings
+  FLAGS:   public final super synthetic (0x1031)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    public static final synthetic  $EnumSwitchMapping$0  [I
+  METHODS:
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$backwardConfig$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $isEnabledBackward  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Landroidx/compose/runtime/State;)V
+            public final  invoke()Ljava/lang/Boolean;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$backwardConfig$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$backwardConfig$2;
+  METHODS:
+                 package  <init>()V
+            public final  invoke-0a9Yr6o(JJ)Ljava/lang/Boolean;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$backwardConfig$3
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function1;)V
+            public final  invoke()V
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$backwardTargetRect$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+         final synthetic  $$this$pointerInput  Landroidx/compose/ui/input/pointer/PointerInputScope;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Landroidx/compose/ui/input/pointer/PointerInputScope;)V
+            public final  invoke()Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$forwardConfig$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $isEnabledForward  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Landroidx/compose/runtime/State;)V
+            public final  invoke()Ljava/lang/Boolean;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$forwardConfig$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/DragGestureKt$dragGesture$1$1$forwardConfig$2;
+  METHODS:
+                 package  <init>()V
+            public final  invoke-0a9Yr6o(JJ)Ljava/lang/Boolean;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$forwardConfig$3
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function1;)V
+            public final  invoke()V
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragGestureKt$dragGesture$1$1$forwardTargetRect$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;
+         final synthetic  $$this$pointerInput  Landroidx/compose/ui/input/pointer/PointerInputScope;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$GestureDragInteraction;Landroidx/compose/ui/input/pointer/PointerInputScope;)V
+            public final  invoke()Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  dragStartEnd(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Leu/wewox/pagecurl/page/PageCurlState$InternalState;ZZLkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;)Landroidx/compose/ui/Modifier;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+         final synthetic  $enabledForward  Z
+         final synthetic  $enabledBackward  Z
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(ZZLeu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlinx/coroutines/CoroutineScope;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Lkotlin/jvm/functions/Function1;)V
+            public final  invoke(Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/Modifier;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+         final synthetic  $isEnabledForward  Landroidx/compose/runtime/State;
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+         final synthetic  $isEnabledBackward  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlinx/coroutines/CoroutineScope;Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Landroidx/compose/runtime/State;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/State;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    private static final  invokeSuspend$lambda$0(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    private static final  invokeSuspend$lambda$1(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    private static final  invokeSuspend$lambda$2(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    private static final  invokeSuspend$lambda$3(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    public static final synthetic  access$invokeSuspend$lambda$1(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    public static final synthetic  access$invokeSuspend$lambda$3(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    public static final synthetic  access$invokeSuspend$lambda$0(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+    public static final synthetic  access$invokeSuspend$lambda$2(Lkotlin/Lazy;)Landroidx/compose/ui/geometry/Rect;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $forwardConfig  Leu/wewox/pagecurl/page/DragConfig;
+         final synthetic  $backwardConfig  Leu/wewox/pagecurl/page/DragConfig;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $forwardStartRect$delegate  Lkotlin/Lazy;
+         final synthetic  $backwardStartRect$delegate  Lkotlin/Lazy;
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/DragConfig;Leu/wewox/pagecurl/page/DragConfig;Lkotlinx/coroutines/CoroutineScope;Lkotlin/Lazy;Lkotlin/Lazy;Leu/wewox/pagecurl/page/PageCurlState$InternalState;)V
+            public final  invoke-0a9Yr6o(JJ)Leu/wewox/pagecurl/page/DragConfig;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$WhenMappings
+  FLAGS:   public final super synthetic (0x1031)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    public static final synthetic  $EnumSwitchMapping$0  [I
+  METHODS:
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$backwardConfig$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $isEnabledBackward  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Landroidx/compose/runtime/State;)V
+            public final  invoke()Ljava/lang/Boolean;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$backwardConfig$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $backwardEndRect$delegate  Lkotlin/Lazy;
+  METHODS:
+                 package  <init>(Lkotlin/Lazy;)V
+            public final  invoke-0a9Yr6o(JJ)Ljava/lang/Boolean;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$backwardConfig$3
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function1;)V
+            public final  invoke()V
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$backwardEndRect$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+         final synthetic  $$this$pointerInput  Landroidx/compose/ui/input/pointer/PointerInputScope;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Landroidx/compose/ui/input/pointer/PointerInputScope;)V
+            public final  invoke()Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$backwardStartRect$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+         final synthetic  $$this$pointerInput  Landroidx/compose/ui/input/pointer/PointerInputScope;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Landroidx/compose/ui/input/pointer/PointerInputScope;)V
+            public final  invoke()Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$forwardConfig$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $isEnabledForward  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Landroidx/compose/runtime/State;)V
+            public final  invoke()Ljava/lang/Boolean;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$forwardConfig$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $forwardEndRect$delegate  Lkotlin/Lazy;
+  METHODS:
+                 package  <init>(Lkotlin/Lazy;)V
+            public final  invoke-0a9Yr6o(JJ)Ljava/lang/Boolean;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$forwardConfig$3
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $onChange  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function1;)V
+            public final  invoke()V
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$forwardEndRect$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+         final synthetic  $$this$pointerInput  Landroidx/compose/ui/input/pointer/PointerInputScope;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Landroidx/compose/ui/input/pointer/PointerInputScope;)V
+            public final  invoke()Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.DragStartEndKt$dragStartEnd$1$1$forwardStartRect$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $dragInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;
+         final synthetic  $$this$pointerInput  Landroidx/compose/ui/input/pointer/PointerInputScope;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig$StartEndDragInteraction;Landroidx/compose/ui/input/pointer/PointerInputScope;)V
+            public final  invoke()Landroidx/compose/ui/geometry/Rect;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.Edge
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+     public static final  Companion  Leu/wewox/pagecurl/page/Edge$Companion;
+           private final  top  J
+           private final  bottom  J
+           private final  centerX  F
+     public static final  $stable  I
+    private static final  VectorConverter  Landroidx/compose/animation/core/TwoWayConverter;
+    private static final  VisibilityThreshold  Leu/wewox/pagecurl/page/Edge;
+  METHODS:
+                 private  <init>(JJ)V
+            public final  getTop-F1C5BW0()J
+            public final  getBottom-F1C5BW0()J
+            public final  getCenterX$pagecurl_release()F
+            public final  component1-F1C5BW0()J
+            public final  component2-F1C5BW0()J
+            public final  copy-0a9Yr6o(JJ)Leu/wewox/pagecurl/page/Edge;
+    public static synthetic  copy-0a9Yr6o$default(Leu/wewox/pagecurl/page/Edge;JJILjava/lang/Object;)Leu/wewox/pagecurl/page/Edge;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+        public synthetic  <init>(JJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+    public static final synthetic  access$getVectorConverter$cp()Landroidx/compose/animation/core/TwoWayConverter;
+    public static final synthetic  access$getVisibilityThreshold$cp()Leu/wewox/pagecurl/page/Edge;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.Edge$Companion
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+                 private  <init>()V
+            public final  getVectorConverter()Landroidx/compose/animation/core/TwoWayConverter;
+            public final  getVisibilityThreshold()Leu/wewox/pagecurl/page/Edge;
+        public synthetic  <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+[CLASS] eu.wewox.pagecurl.page.Edge$Companion$VectorConverter$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/Edge$Companion$VectorConverter$1;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Leu/wewox/pagecurl/page/Edge;)Landroidx/compose/animation/core/AnimationVector4D;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.Edge$Companion$VectorConverter$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/Edge$Companion$VectorConverter$2;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/animation/core/AnimationVector4D;)Leu/wewox/pagecurl/page/Edge;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.NewEdgeCreator
+  FLAGS:   public super abstract (0x421)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+     public static final  $stable  I
+  METHODS:
+                  public  <init>()V
+         public abstract  createNew--aQHJeE(JJJ)Leu/wewox/pagecurl/page/Edge;
+         protected final  createVectors--aQHJeE(JJJ)Lkotlin/Pair;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.NewEdgeCreator$Default
+  FLAGS:   public final super (0x31)
+  SUPER:   eu.wewox.pagecurl.page.NewEdgeCreator
+  IFACES:  <none>
+  FIELDS:
+     public static final  $stable  I
+  METHODS:
+                  public  <init>()V
+                  public  createNew--aQHJeE(JJJ)Leu/wewox/pagecurl/page/Edge;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.NewEdgeCreator$PageEdge
+  FLAGS:   public final super (0x31)
+  SUPER:   eu.wewox.pagecurl.page.NewEdgeCreator
+  IFACES:  <none>
+  FIELDS:
+     public static final  $stable  I
+  METHODS:
+                  public  <init>()V
+                  public  createNew--aQHJeE(JJJ)Leu/wewox/pagecurl/page/Edge;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  PageCurl(ILandroidx/compose/ui/Modifier;Leu/wewox/pagecurl/page/PageCurlState;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+     public static final  PageCurl(ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/page/PageCurlState;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+     public static final  PageCurl(Leu/wewox/pagecurl/page/PageCurlState;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+    private static final  PageCurl$lambda$1(Landroidx/compose/runtime/MutableState;)Ljava/lang/Object;
+    private static final  PageCurl$lambda$2(Landroidx/compose/runtime/MutableState;Ljava/lang/Object;)V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $count  I
+         final synthetic  $config  Leu/wewox/pagecurl/config/PageCurlConfig;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $content  Lkotlin/jvm/functions/Function3;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState;ILeu/wewox/pagecurl/config/PageCurlConfig;Lkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function3;)V
+            public final  invoke(Landroidx/compose/foundation/layout/BoxWithConstraintsScope;Landroidx/compose/runtime/Composer;I)V
+    private static final  invoke$lambda$0(Landroidx/compose/runtime/State;)I
+    private static final  invoke$lambda$1(Landroidx/compose/runtime/State;)Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+    private static final  invoke$lambda$2(Landroidx/compose/runtime/State;)Leu/wewox/pagecurl/config/PageCurlConfig;
+    private static final synthetic  invoke$next(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    private static final synthetic  invoke$prev(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    public static final synthetic  access$invoke$lambda$0(Landroidx/compose/runtime/State;)I
+    public static final synthetic  access$invoke$next(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public static final synthetic  access$invoke$prev(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$1$1
+  FLAGS:   final super synthetic (0x1030)
+  SUPER:   kotlin.jvm.internal.AdaptedFunctionReference
+  IFACES:  kotlin.jvm.functions.Function1, kotlin.coroutines.jvm.internal.SuspendFunction
+  FIELDS:
+    <none>
+  METHODS:
+                 package  <init>(Ljava/lang/Object;)V
+            public final  invoke(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$1$2
+  FLAGS:   final super synthetic (0x1030)
+  SUPER:   kotlin.jvm.internal.AdaptedFunctionReference
+  IFACES:  kotlin.jvm.functions.Function1, kotlin.coroutines.jvm.internal.SuspendFunction
+  FIELDS:
+    <none>
+  METHODS:
+                 package  <init>(Ljava/lang/Object;)V
+            public final  invoke(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$1$dragGestureModifier$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $updatedCurrent$delegate  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState;Landroidx/compose/runtime/State;)V
+            public final  invoke(I)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$1$dragGestureModifier$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $updatedCurrent$delegate  Landroidx/compose/runtime/State;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState;Landroidx/compose/runtime/State;)V
+            public final  invoke(I)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $count  I
+         final synthetic  $modifier  Landroidx/compose/ui/Modifier;
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $config  Leu/wewox/pagecurl/config/PageCurlConfig;
+         final synthetic  $content  Lkotlin/jvm/functions/Function3;
+         final synthetic  $$changed  I
+         final synthetic  $$default  I
+  METHODS:
+                 package  <init>(ILandroidx/compose/ui/Modifier;Leu/wewox/pagecurl/page/PageCurlState;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlin/jvm/functions/Function3;II)V
+            public final  invoke(Landroidx/compose/runtime/Composer;I)V
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$4
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $count  I
+         final synthetic  $key  Lkotlin/jvm/functions/Function1;
+         final synthetic  $modifier  Landroidx/compose/ui/Modifier;
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $config  Leu/wewox/pagecurl/config/PageCurlConfig;
+         final synthetic  $content  Lkotlin/jvm/functions/Function3;
+         final synthetic  $$changed  I
+         final synthetic  $$default  I
+  METHODS:
+                 package  <init>(ILkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/page/PageCurlState;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlin/jvm/functions/Function3;II)V
+            public final  invoke(Landroidx/compose/runtime/Composer;I)V
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlKt$PageCurl$5
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+         final synthetic  $state  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $modifier  Landroidx/compose/ui/Modifier;
+         final synthetic  $content  Lkotlin/jvm/functions/Function3;
+         final synthetic  $$changed  I
+         final synthetic  $$default  I
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function3;II)V
+            public final  invoke(Landroidx/compose/runtime/Composer;I)V
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  current$delegate  Landroidx/compose/runtime/MutableState;
+                 private  max  I
+           private final  internalState$delegate  Landroidx/compose/runtime/MutableState;
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(II)V
+        public synthetic  <init>(IIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+            public final  getCurrent()I
+            public final  setCurrent$pagecurl_release(I)V
+            public final  getProgress()F
+            public final  getMax$pagecurl_release()I
+            public final  getInternalState$pagecurl_release()Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+           private final  setInternalState(Leu/wewox/pagecurl/page/PageCurlState$InternalState;)V
+            public final  setup-0kLqBqw$pagecurl_release(IJ)V
+            public final  snapTo(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;
+            public final  next(Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public static synthetic  next$default(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+            public final  prev(Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public static synthetic  prev$default(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+                  public  <init>()V
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$InternalState
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  constraints  J
+           private final  leftEdge  Leu/wewox/pagecurl/page/Edge;
+           private final  rightEdge  Leu/wewox/pagecurl/page/Edge;
+           private final  forward  Landroidx/compose/animation/core/Animatable;
+           private final  backward  Landroidx/compose/animation/core/Animatable;
+                 private  animateJob  Lkotlinx/coroutines/Job;
+           private final  progress$delegate  Landroidx/compose/runtime/State;
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState;
+  METHODS:
+                 private  <init>(Leu/wewox/pagecurl/page/PageCurlState;JLeu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Landroidx/compose/animation/core/Animatable;Landroidx/compose/animation/core/Animatable;)V
+            public final  getConstraints-msEJaDk()J
+            public final  getLeftEdge()Leu/wewox/pagecurl/page/Edge;
+            public final  getRightEdge()Leu/wewox/pagecurl/page/Edge;
+            public final  getForward()Landroidx/compose/animation/core/Animatable;
+            public final  getBackward()Landroidx/compose/animation/core/Animatable;
+            public final  getAnimateJob()Lkotlinx/coroutines/Job;
+            public final  setAnimateJob(Lkotlinx/coroutines/Job;)V
+            public final  getProgress()F
+            public final  reset(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+            public final  animateTo(Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+        public synthetic  <init>(Leu/wewox/pagecurl/page/PageCurlState;JLeu/wewox/pagecurl/page/Edge;Leu/wewox/pagecurl/page/Edge;Landroidx/compose/animation/core/Animatable;Landroidx/compose/animation/core/Animatable;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$InternalState$animateTo$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+         final synthetic  $animate  Lkotlin/jvm/functions/Function3;
+         final synthetic  this$1  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $target  Lkotlin/jvm/functions/Function0;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlin/jvm/functions/Function3;Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$InternalState$animateTo$2$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  L$0  Ljava/lang/Object;
+                 package  label  I
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+         final synthetic  $animate  Lkotlin/jvm/functions/Function3;
+         final synthetic  this$1  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $target  Lkotlin/jvm/functions/Function0;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlin/jvm/functions/Function3;Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$InternalState$animateTo$2$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState;
+         final synthetic  $target  Lkotlin/jvm/functions/Function0;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState;Lkotlin/jvm/functions/Function0;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$InternalState$progress$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;)V
+            public final  invoke()Ljava/lang/Float;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$InternalState$reset$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.ContinuationImpl
+  IFACES:  <none>
+  FIELDS:
+                 package  L$0  Ljava/lang/Object;
+               synthetic  result  Ljava/lang/Object;
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState$InternalState;
+                 package  label  I
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState$InternalState;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$next$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState;)V
+            public final  invoke()Ljava/lang/Integer;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$next$3
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+               synthetic  J$0  J
+         final synthetic  $block  Lkotlin/jvm/functions/Function3;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  invoke-12SF9DM(Leu/wewox/pagecurl/page/PageCurlState$InternalState;JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$prev$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  this$0  Leu/wewox/pagecurl/page/PageCurlState;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/page/PageCurlState;)V
+            public final  invoke()Ljava/lang/Integer;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlState$prev$3
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+               synthetic  J$0  J
+         final synthetic  $block  Lkotlin/jvm/functions/Function3;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function3;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  invoke-12SF9DM(Leu/wewox/pagecurl/page/PageCurlState$InternalState;JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    private static final  DefaultNext  Lkotlin/jvm/functions/Function3;
+    private static final  DefaultPrev  Lkotlin/jvm/functions/Function3;
+    private static final  DefaultAnimDuration  I
+    private static final  DefaultMidPointDuration  I
+  METHODS:
+     public static final  rememberPageCurlState(ILandroidx/compose/runtime/Composer;II)Leu/wewox/pagecurl/page/PageCurlState;
+     public static final  rememberPageCurlState(ILeu/wewox/pagecurl/config/PageCurlConfig;Landroidx/compose/runtime/Composer;II)Leu/wewox/pagecurl/page/PageCurlState;
+     public static final  rememberPageCurlState(IILeu/wewox/pagecurl/config/PageCurlConfig;Landroidx/compose/runtime/Composer;II)Leu/wewox/pagecurl/page/PageCurlState;
+    private static final  getStart-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+    private static final  getMiddle-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+    private static final  getEnd-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+    public static final synthetic  access$getDefaultNext()Lkotlin/jvm/functions/Function3;
+    public static final synthetic  access$getDefaultNext$p()Lkotlin/jvm/functions/Function3;
+    public static final synthetic  access$getDefaultPrev()Lkotlin/jvm/functions/Function3;
+    public static final synthetic  access$getDefaultPrev$p()Lkotlin/jvm/functions/Function3;
+    public static final synthetic  access$getStart-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+    public static final synthetic  access$getEnd-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+    public static final synthetic  access$getMiddle-uvyYCjk(J)Leu/wewox/pagecurl/page/Edge;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$DefaultNext$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+               synthetic  J$0  J
+  METHODS:
+                 package  <init>(Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  invoke-12SF9DM(Landroidx/compose/animation/core/Animatable;JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$DefaultNext$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $size  J
+  METHODS:
+                 package  <init>(J)V
+            public final  invoke(Landroidx/compose/animation/core/KeyframesSpec$KeyframesSpecConfig;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$DefaultPrev$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function3
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+               synthetic  J$0  J
+  METHODS:
+                 package  <init>(Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  invoke-12SF9DM(Landroidx/compose/animation/core/Animatable;JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$DefaultPrev$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $size  J
+  METHODS:
+                 package  <init>(J)V
+            public final  invoke(Landroidx/compose/animation/core/KeyframesSpec$KeyframesSpecConfig;)V
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$1;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/runtime/saveable/SaverScope;Leu/wewox/pagecurl/page/PageCurlState;)Ljava/lang/Integer;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$2;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(I)Leu/wewox/pagecurl/page/PageCurlState;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$3$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $initialCurrent  I
+  METHODS:
+                 package  <init>(I)V
+            public final  invoke()Leu/wewox/pagecurl/page/PageCurlState;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$4
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$4;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/runtime/saveable/SaverScope;Leu/wewox/pagecurl/page/PageCurlState;)Ljava/lang/Integer;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$5
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$5;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(I)Leu/wewox/pagecurl/page/PageCurlState;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$6$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $initialCurrent  I
+  METHODS:
+                 package  <init>(I)V
+            public final  invoke()Leu/wewox/pagecurl/page/PageCurlState;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$7
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+     public static final  INSTANCE  Leu/wewox/pagecurl/page/PageCurlStateKt$rememberPageCurlState$7;
+  METHODS:
+                 package  <init>()V
+            public final  invoke(Landroidx/compose/runtime/saveable/SaverScope;Leu/wewox/pagecurl/page/PageCurlState;)Ljava/lang/Integer;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$8$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function1
+  FIELDS:
+         final synthetic  $max  I
+  METHODS:
+                 package  <init>(I)V
+            public final  invoke(I)Leu/wewox/pagecurl/page/PageCurlState;
+    public bridge synthetic  invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.PageCurlStateKt$rememberPageCurlState$9$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.jvm.internal.Lambda
+  IFACES:  kotlin.jvm.functions.Function0
+  FIELDS:
+         final synthetic  $max  I
+         final synthetic  $initialCurrent  I
+  METHODS:
+                 package  <init>(II)V
+            public final  invoke()Leu/wewox/pagecurl/page/PageCurlState;
+    public bridge synthetic  invoke()Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.TapGestureKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  tapGesture(Landroidx/compose/ui/Modifier;Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Landroidx/compose/ui/Modifier;
+
+[CLASS] eu.wewox.pagecurl.page.TapGestureKt$tapGesture$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+         final synthetic  $config  Leu/wewox/pagecurl/config/PageCurlConfig;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $onTapForward  Lkotlin/jvm/functions/Function1;
+         final synthetic  $onTapBackward  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig;Lkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Landroidx/compose/ui/input/pointer/PointerInputScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.TapGestureKt$tapGesture$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.RestrictedSuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  L$1  Ljava/lang/Object;
+                 package  label  I
+       private synthetic  L$0  Ljava/lang/Object;
+         final synthetic  $config  Leu/wewox/pagecurl/config/PageCurlConfig;
+         final synthetic  $tapInteraction  Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;
+         final synthetic  $scope  Lkotlinx/coroutines/CoroutineScope;
+         final synthetic  $onTapForward  Lkotlin/jvm/functions/Function1;
+         final synthetic  $onTapBackward  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Leu/wewox/pagecurl/config/PageCurlConfig;Leu/wewox/pagecurl/config/PageCurlConfig$TargetTapInteraction;Lkotlinx/coroutines/CoroutineScope;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Landroidx/compose/ui/input/pointer/AwaitPointerEventScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.TapGestureKt$tapGesture$1$1$1
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+         final synthetic  $onTapForward  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.page.TapGestureKt$tapGesture$1$1$2
+  FLAGS:   final super (0x30)
+  SUPER:   kotlin.coroutines.jvm.internal.SuspendLambda
+  IFACES:  kotlin.jvm.functions.Function2
+  FIELDS:
+                 package  label  I
+         final synthetic  $onTapBackward  Lkotlin/jvm/functions/Function1;
+  METHODS:
+                 package  <init>(Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)V
+            public final  invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+            public final  create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+            public final  invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    public bridge synthetic  invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+[CLASS] eu.wewox.pagecurl.utils.MathUtilsKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  rotate-3MmeM6k(JF)J
+     public static final  lineLineIntersection-zwwh4xc(JJJJ)Landroidx/compose/ui/geometry/Offset;
+
+[CLASS] eu.wewox.pagecurl.utils.Polygon
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+           private final  vertices  Ljava/util/List;
+           private final  size  I
+     public static final  $stable  I
+  METHODS:
+                  public  <init>(Ljava/util/List;)V
+            public final  getVertices()Ljava/util/List;
+            public final  translate-k-4lQ0M(J)Leu/wewox/pagecurl/utils/Polygon;
+            public final  offset(F)Leu/wewox/pagecurl/utils/Polygon;
+            public final  toPath()Landroidx/compose/ui/graphics/Path;
+           private final  index(I)I
+            public final  component1()Ljava/util/List;
+            public final  copy(Ljava/util/List;)Leu/wewox/pagecurl/utils/Polygon;
+    public static synthetic  copy$default(Leu/wewox/pagecurl/utils/Polygon;Ljava/util/List;ILjava/lang/Object;)Leu/wewox/pagecurl/utils/Polygon;
+                  public  toString()Ljava/lang/String;
+                  public  hashCode()I
+                  public  equals(Ljava/lang/Object;)Z
+                  static  <clinit>()V
+
+[CLASS] eu.wewox.pagecurl.utils.PolygonKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+    private static final  normalized-k-4lQ0M(J)J
+    public static final synthetic  access$normalized-k-4lQ0M(J)J
+
+[CLASS] eu.wewox.pagecurl.utils.RectUtilsKt
+  FLAGS:   public final super (0x31)
+  SUPER:   java.lang.Object
+  IFACES:  <none>
+  FIELDS:
+    <none>
+  METHODS:
+     public static final  multiply-O0kMr_c(Landroidx/compose/ui/geometry/Rect;J)Landroidx/compose/ui/geometry/Rect;
+
